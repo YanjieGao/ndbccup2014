@@ -27,9 +27,9 @@ public class parse {
 //	  </context-param>
 		
 		 String            driverclass ="oracle.jdbc.driver.OracleDriver"; 
-	     String   username ="scott"; 
-	     String   password = "tiger";
-	    String    url ="jdbc:oracle:thin:@202.112.117.91:1521:testdb";
+	     String   username =""; 
+	     String   password = "";
+	    String    url ="jdbc:oracle:thin:@";
 	                  try{                      
 	               	Class.forName(driverclass).newInstance(); 
 		    	Connection  con=DriverManager.getConnection(url,username,password); 
