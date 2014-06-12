@@ -1,0 +1,12 @@
+create table ndbc_user (acc nvarchar2(20) not null primary key,pass  nvarchar2(20),team nvarchar2
+
+(300),linkman nvarchar2(20),tel  nvarchar2(20),company  nvarchar2(30),examine  nvarchar2(300))
+create sequence seq_aritcle_id increment by 1 start with 1 maxvalue 999999999;
+create or replace trigger trg_articletype_id
+    before insert
+    on ndbc_uesr
+    for each row
+    begin
+    select seq_articletype_id.nextval into :new.id
+    from dual;
+    end  trg_articletype_id; 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!--  <context-param>
+   <param-name>driver</param-name>
+   <param-value>com.mysql.jdbc.Driver</param-value>
+</context-param>
+
+
+<context-param>
+   <param-name>url</param-name>
+   <param-value>jdbc:mysql://localhost:3306/test</param-value>
+</context-param>
+<context-param>
+   <param-name>username</param-name>
+   <param-value>root</param-value>
+</context-param>
+<context-param>
+   <param-name>password</param-name>
+   <param-value>111111</param-value>
+</context-param> 
+
+
+
+
+     <context-param>
+   <param-name>driver</param-name>
+   <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+</context-param>
+<context-param>
+   <param-name>url</param-name>
+   <param-value>jdbc:oracle:thin:@202.112.117.91:1521:testdb</param-value>
+</context-param>
+<context-param>
+   <param-name>username</param-name>
+   <param-value>scott</param-value>
+</context-param>
+<context-param>
+   <param-name>password</param-name>
+   <param-value>tiger</param-value>
+</context-param>   -->
